@@ -37,5 +37,5 @@ def get_table():
     workbook.close()
 
 
-
-get_table()
+if __name__ == '__main__':
+    get_table()
